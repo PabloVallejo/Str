@@ -1,11 +1,5 @@
 <?php
 
-function loader($class)
-{
-    $file = $class . '.php';
-    if (file_exists($file)) {
-        require $file;
-    }
-}
 
-spl_autoload_register('loader');
+// Require source files
+require 'src/Str/Str.php';
