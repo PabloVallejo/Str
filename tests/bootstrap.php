@@ -1,4 +1,11 @@
 <?php
 
-// Require source file
-require __DIR__ . '/../src/Str/Str.php';
+function loader($class)
+{
+    $file = $class . '.php';
+    if (file_exists($file)) {
+        require $file;
+    }
+}
+
+spl_autoload_register('loader');
