@@ -5,7 +5,7 @@
     "description": "",
     "keywords": ["string", "helper", "str"],
     "homepage": "http://github.com/PabloVallejo/str",
-    "license" : "BSD",
+    "license" : "Apache 2",
     "authors" : [
         {
             "name": "Pablo Vallejo",
