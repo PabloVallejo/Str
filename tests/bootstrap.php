@@ -1,4 +1,4 @@
 <?php
 
 // Require source file
-require __DIR__ . '/../src/Str/Str.php';
+require '../src/Str/Str.php';
